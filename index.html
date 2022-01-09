@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    
+    <!-- <div id="progress"></div> -->
+    <div class="navigation">
+        <div id="progress"></div>
+    <div class="navbar" id="box">
+        <div class="logo">
+            FASHION
+        </div>
+        <nav>
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul id="menuItems">
+                <li class="navitem"><a href="#header" class="active">HOME</a></li>
+                <li class="navitem"><a href="#categories" class="active" >CATEGORIES</a></li>
+                <li class="navitem"><a href="#bestseller" class="active">BEST SELLER</a></li>
+                <li class="navitem"><a href="#about" class="active">ABOUT US</a></li>
+                <li><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+
+            <!-- <section class="modal-container">
+                <button class="modal__button" id="open-modal">
+                    Open Modal
+                </button>
+            
+                <div class="modal__container" id="modal-container">
+                    <div class="modal__content">
+                        <div class="modal__close close-modal" title="Close">
+                            <i class='bx bx-x'></i>
+                        </div>
+            
+                        <h2>WELCOME!!</h2>
+            
+                        <h1 class="modal__title">Pease Enter Your Namr</h1>
+                        <input type="text" placeholder="Name">
+            
+                        <button class="modal__button modal__button-width">
+                            Ok
+                        </button>
+            
+                        <button class="modal__button-link close-modal">
+                            Close
+                        </button> 
+                    </div>
+                </div>
+            </section> -->
+    
+            <img src="img/dot.png" id="icon">
+        </nav>
+        <i class="fas fa-bars" id="menuBar" onclick="showmenu()"></i>
+        <!-- <img src="img/menu.png" class="menu-icon" onclick="showmenu()"> -->
+    </div>
+</div>
+
+
+
+    
+    <br><br><br>
+    <div class="header" id="header">
+        <br><br><br>
+        <div class="container">
+            <br><br><br>
+    <div class="home" id="home">
+        <div class="col2">
+            <div class="glass"></div> 
+            <div class="shadow2"></div>
+            <!-- <img src="img/wardrobe.jpg"> -->
+        </div>
+        <div class="col2">
+            <h1>Hello</h1>
+            <!-- <h1 class="results"></h1> -->
+            <p>Get Ready To Give Your Wadrobe A Makeover!!!</p>
+            <br>
+           <button type="button" class="btn">Shop Now</button> 
+        </div>
+        <br><br>
+    </div>
+    <br><br>
+    </div>
+    <br><br>
+</div>
+<div class="cursor"></div>
+
+
+<!-- categories-->
+<div class="categories" id="categories">
+    <h1>Shop By Category</h1>
+    <br>
+    <div class="row">
+        <ul class="col3">
+            <li>
+                <img src="img/handbag.jpg!d">
+                <div class="layer">
+                <h3>Shop Handbags</h3>
+                </div>
+            </li>
+            <li>
+                <img src="img/glasses.jpg">
+                <div class="layer">
+               <h3>Shop Sunglasses</h3> 
+                </div>
+            </li>
+            <li>
+                <img src="img/heels.jpg">
+                <div class="layer">
+                <h3>Shop Footwear</h3>
+                </div>
+            </li>
+        </ul>
+        <br><br><br>
+    </div>
+</div>
+
+<!-- best seller -->
+<div class="bestseller" id="bestseller">
+    <h1>Our Best Sellers</h1>
+    <div class="row">
+        <ul class="col4">
+            <li>
+                <img src="img/trenchcoat.jpg" alt="">
+                <h4>Long Trench Coat</h4>
+                <p>$50.00</p>
+            </li>
+            <li>
+                <img src="img/pantsuit.jpg!d" alt="">
+                <h4>Paint Suit Set</h4>
+                <p>$65.00</p>
+            </li>
+            <li>
+                <img src="img/trousers.jpg" alt="">
+                <h4>Wide Legged Trousers</h4>
+                <p>$35.00</p>
+            </li>
+            <li>
+                <img src="img/clothes.jpg" alt="">
+                <h4>Summer Dress</h4>
+                <p>$40.00</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="login">
+    <div class="row">
+        <ul class="login3">
+            <li>
+                <img src="img/coatdress.jpg" alt="" class="img1">
+            </li>
+            <li>
+                <h3>BE THE FIRST TO KNOW </h3><br><br><br>
+                <p>SIGN UP FOR OUR NEWSLETTER AND <br>
+                   RECEIVE 15% OFF YOUR FIRST ORDER</p>
+                   <br>
+                   <button type="button" class="btn2">SIGN UP</button>
+            </li>
+            <li>
+                <img src="img/dress.jpg" alt="" class="img2">
+            </li>
+        </ul>
+        <br><br><br><br>
+    </div>
+</div>
+<br><br>
+<hr width="100%" color="lightgrey"> 
+<br><br>
+
+<!-- footer -->
+<div class="footer" id="about">
+    <div class="fcontainer">
+        <div class="frow">
+            <div class="fcol1">
+                <h3>ABOUT US</h3>
+                <ul>
+                    <li>Store Locator</li>
+                    <li>Sustainability</li>
+                    <li>Our Team</li>
+                    <li>Work With Us</li>
+                </ul>
+            </div>
+            <div class="fcol2">
+                <h3>CATEGORIES</h3>
+                <ul>
+                    <li>Bags</li>
+                    <li>Accesories</li>
+                    <li>Shoes</li>
+                    <li>Eyewear</li>
+                    <li>Clothing</li>
+                </ul>
+            </div>
+            <div class="fcol3">
+                <h3>TERMS & CONDITIONS</h3>
+                <ul>
+                    <li>Legal Notice</li>
+                    <li>Privacy Policy</li>
+                    <li>Return Policy</li>
+                </ul>
+            </div>
+            <div class="fcol4">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <p>Made with <i class="fas fa-heart"></i> by VANDANA GYANCHANDANI
+        <br>
+        Copyright 2022</p>
+    </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    window.onscroll = () =>{
+        let maxHeight = window.document.body.scrollHeight - window.innerHeight;
+        let percentge = ((window.scrollY)/maxHeight)*100;
+        document.querySelector('#progress').style.width = percentge + '%'
+    }
+
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    }
+
+    var cursor = document.querySelector(".cursor");
+    document.addEventListener("mousemove",function(e){
+        cursor.style.cssText = "left:" + e.clientX + "px; top:" + e.clientY + "px;";
+    })
+
+    var menuItems = document.getElementById("menuItems");
+     function showmenu() {
+       menuItems.style.left= "0";
+     }
+     function hidemenu(){
+         menuItems.style.left="100%";
+     }
+
+
+//      const showModal = (openButton, modalContent) =>{
+//     const openBtn = document.getElementById(openButton),
+//     modalContainer = document.getElementById(modalContent)
+    
+//     if(openBtn && modalContainer){
+//         openBtn.addEventListener('click', ()=>{
+//             modalContainer.classList.add('show-modal')
+//         })
+//     }
+// }
+// showModal('open-modal','modal-container')
+
+// /*=============== CLOSE MODAL ===============*/
+// const closeBtn = document.querySelectorAll('.close-modal')
+
+// function closeModal(){
+//     const modalContainer = document.getElementById('modal-container')
+//     modalContainer.classList.remove('show-modal')
+// }
+// closeBtn.forEach(c => c.addEventListener('click', closeModal))
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
